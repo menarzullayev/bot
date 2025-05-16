@@ -1,0 +1,79 @@
+{
+    "days": [
+        {
+            "name": "Dushanba",
+            "lessons": [
+                {
+                    "time": "08:00 - 09:30",
+                    "subject": "Matematika",
+                    "teacher": "F.I. Familiyev"
+                },
+                {
+                    "time": "09:45 - 11:15",
+                    "subject": "Fizika",
+                    "teacher": "S.T. Otaboev"
+                }
+            ]
+        },
+        {
+            "name": "Seshanba",
+            "lessons": [
+                {
+                    "time": "08:00 - 09:30",
+                    "subject": "Ona tili",
+                    "teacher": "M.N. Ismoilova"
+                }
+            ]
+        },
+        {
+            "name": "Chorshanba",
+            "lessons": [
+                {
+                    "time": "08:00 - 09:30",
+                    "subject": "Informatika",
+                    "teacher": "A.B. Karimov"
+                },
+                {
+                    "time": "09:45 - 11:15",
+                    "subject": "Kimyo",
+                    "teacher": "L.K. Yusupova"
+                }
+            ]
+        },
+        {
+            "name": "Payshanba",
+            "lessons": [
+                {
+                    "time": "08:00 - 09:30",
+                    "subject": "Biologiya",
+                    "teacher": "S.M. Qodirov"
+                }
+            ]
+        },
+        {
+            "name": "Juma",
+            "lessons": [
+                {
+                    "time": "08:00 - 09:30",
+                    "subject": "Tarix",
+                    "teacher": "N.O. Abdullaev"
+                },
+                {
+                    "time": "09:45 - 11:15",
+                    "subject": "Ingliz tili",
+                    "teacher": "D.R. Smith"
+                }
+            ]
+        },
+        {
+            "name": "Shanba",
+            "lessons": [
+                {
+                    "time": "08:00 - 09:30",
+                    "subject": "Geografiya",
+                    "teacher": "Z.T. Mirzaev"
+                }
+            ]
+        }
+    ]
+}

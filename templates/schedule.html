@@ -1,0 +1,22 @@
+<div class="sidebar-section">
+    <div class="sidebar-header">
+        <h2><i class="fas fa-calendar-alt"></i> Dars Jadvali</h2>
+    </div>
+    
+    <div class="schedule-days">
+        {% for day in schedule.days %}
+        <div class="schedule-day {% if loop.first %}active{% endif %}" data-day="{{ day.name|lower }}">
+            <h3>{{ day.name }}</h3>
+            <div class="lessons">
+                {% for lesson in day.lessons %}
+                <div class="lesson">
+                    <span class="time">{{ lesson.time }}</span>
+                    <span class="subject">{{ lesson.subject }}</span>
+                    <span class="teacher">{{ lesson.teacher }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

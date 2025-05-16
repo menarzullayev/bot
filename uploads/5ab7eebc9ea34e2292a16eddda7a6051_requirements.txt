@@ -1,0 +1,5 @@
+Flask
+flask-session
+python-dotenv
+openai>=1.0.0
+werkzeug

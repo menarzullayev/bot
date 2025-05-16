@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektron Ta'lim Platformasi</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Chap panel (sidebar) -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fas fa-graduation-cap"></i> Dars Jadvali</h2>
+            </div>
+            
+            <div class="schedule">
+                <div class="schedule-day active">
+                    <h3>Dushanba</h3>
+                    <div class="lesson">
+                        <span class="time">08:00 - 09:30</span>
+                        <span class="subject">Matematika</span>
+                        <span class="teacher">F.I. Familiyev</span>
+                    </div>
+                    <div class="lesson">
+                        <span class="time">09:45 - 11:15</span>
+                        <span class="subject">Fizika</span>
+                        <span class="teacher">S.T. Otaboev</span>
+                    </div>
+                </div>
+                
+                <div class="schedule-day">
+                    <h3>Seshanba</h3>
+                    <div class="lesson">
+                        <span class="time">08:00 - 09:30</span>
+                        <span class="subject">Ona tili</span>
+                        <span class="teacher">M.N. Ismoilova</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tasks">
+                <h2><i class="fas fa-tasks"></i> Topshiriqlar</h2>
+                <div class="task-item">
+                    <div class="task-info">
+                        <span class="task-subject">Matematika</span>
+                        <span class="task-deadline">Ertaga 08:00</span>
+                    </div>
+                    <p class="task-description">5.1-mavzu bo'yicha 10 ta masala yechish</p>
+                </div>
+                <div class="task-item">
+                    <div class="task-info">
+                        <span class="task-subject">Fizika</span>
+                        <span class="task-deadline">Seshanba 09:45</span>
+                    </div>
+                    <p class="task-description">Laboratoriya ishini topshirish</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Asosiy kontent (chat) -->
+        <div class="main-content">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h1>
+                        <i class="fas fa-robot"></i>
+                        Elektron Ta'lim Chatbot
+                    </h1>
+                    <button id="clear-history" class="clear-history">
+                        <i class="fas fa-trash-alt"></i>
+                        <span>Tarixni tozalash</span>
+                    </button>
+                </div>
+
+                <div class="chat-messages" id="chat-messages">
+                    <!-- Xabarlar shu yerda ko'rinadi -->
+                </div>
+
+                <div class="chat-input-container">
+                    <form class="chat-input" id="chat-form">
+                        <label for="file-input" class="file-label" id="file-label" title="Fayl biriktirish">
+                            <i class="fas fa-paperclip"></i>
+                        </label>
+                        <input type="file" id="file-input" class="file-input" multiple>
+                        <textarea id="message-input" placeholder="Xabaringizni yozing..." rows="1"></textarea>
+                        <button type="submit" title="Yuborish">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+
+                    <div class="uploaded-files-container" id="uploaded-files">
+                        <!-- Yuklangan fayllar shu yerda ko'rinadi -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
