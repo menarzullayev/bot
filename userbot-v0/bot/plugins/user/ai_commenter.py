@@ -18,7 +18,7 @@ from core.app_context import AppContext
 from bot.decorators import userbot_cmd
 from bot.lib.telegram import get_account_id, resolve_entity, get_display_name
 from bot.lib.ui import PaginationHelper, format_error, format_success, bold, code
-from userbot.bot.lib.auth import admin_only
+from bot.lib.auth import admin_only
 
 # --- Global O'zgaruvchilar ---
 _last_comment_time: Dict[int, datetime] = {}

@@ -34,12 +34,6 @@ Telethon==1.36.0
 
 # Wiki va lug'at
 wikipedia==1.4.0
-wiktionaryparser==0.0.9
 
 
-speedtest-cli
-python-whois
-dnspython
-httpx
-googlesearch-python
-cowsay==6.1
+speedtest-cli python-whois dnspython httpx googlesearch-python cowsay==6.1

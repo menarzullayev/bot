@@ -20,7 +20,7 @@ from core.app_context import AppContext
 from bot.decorators import userbot_cmd
 from bot.lib.telegram import get_account_id
 from bot.lib.ui import format_error, format_success
-from userbot.bot.lib.auth import admin_only
+from bot.lib.auth import admin_only
 
 # --- Yordamchi Funksiyalar ---
 

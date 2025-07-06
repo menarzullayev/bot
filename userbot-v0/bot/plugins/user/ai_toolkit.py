@@ -20,7 +20,7 @@ from bot.lib.telegram import get_account_id
 from bot.lib.ui import (code, format_error, format_success,
                         send_as_file_if_long)
 from bot.lib.utils import RaiseArgumentParser
-from userbot.bot.lib.auth import admin_only
+from bot.lib.auth import admin_only
 
 # --- YORDAMCHI FUNKSIYALAR ---
 
