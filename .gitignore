@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Userbot specific
+*.session
+*.db
+*.db-shm
+*.db-wal
+*.log
+data/cache.pkl
+data/accounts.json
+data/app_state.json
+data/app_state.json.bak

@@ -1,0 +1,8 @@
+{
+  "user.status": "AFK",
+  "system.start_time": 1751769355.026276,
+  "system.restart_pending": null,
+  "server.load_avg": null,
+  "system.lifecycle_signal": null,
+  "commands.disabled.user/afk:afk_manager_handler": null
+}

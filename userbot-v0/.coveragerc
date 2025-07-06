@@ -1,0 +1,7 @@
+[run]
+source =
+    core
+    bot
+
+[report]
+show_missing = True

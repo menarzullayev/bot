@@ -1,0 +1,45 @@
+# Asosiy asinxron kutubxonalar
+aiohttp==3.9.5
+aiosqlite==0.20.0
+
+# Rejalashtiruvchi
+APScheduler==3.10.4
+
+# Veb-sahifalarni tahlil qilish
+beautifulsoup4==4.12.3
+
+# Google xizmatlari
+google-generativeai==0.7.1  
+googletrans==4.0.0-rc1     # Izoh: Barqaror emas, lekin hozircha qoldirilgan
+
+# Jurnallash (Logging)
+loguru==0.7.2
+
+# Rasm bilan ishlash
+Pillow==10.4.0              
+
+# Tizim resurslari
+psutil==5.9.8
+
+# Ma'lumotlar validatsiyasi va konfiguratsiya
+pydantic==2.8.2             
+pydantic_settings==2.3.4    
+
+# Vaqt mintaqalari va .env fayli
+pytz==2024.1
+python-dotenv==1.0.1
+
+# Telegram bilan ishlash
+Telethon==1.36.0
+
+# Wiki va lug'at
+wikipedia==1.4.0
+wiktionaryparser==0.0.9
+
+
+speedtest-cli
+python-whois
+dnspython
+httpx
+googlesearch-python
+cowsay==6.1
